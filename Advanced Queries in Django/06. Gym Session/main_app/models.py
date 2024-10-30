@@ -16,6 +16,7 @@ class RealEstateListing(models.Model):
         ('Villa', 'Villa'),
         ('Cottage', 'Cottage'),
         ('Studio', 'Studio'),
+         ('Appartment', 'Apartment'),
     ]
 
     property_type = models.CharField(max_length=100, choices=PROPERTY_TYPE_CHOICES)
